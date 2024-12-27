@@ -198,7 +198,7 @@ a {
 }
 /* ===hero=== */
 .hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile_dark@1x.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile-dark@1x.jpg);
     max-width: 320px;
     height: 432px;
     margin-left: auto;
@@ -208,6 +208,7 @@ a {
     background-size: cover;
     padding: 72px 0;
 }
+
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
     .hero {
         background-image: url(../images/mobile-dark@2x.jpg);
