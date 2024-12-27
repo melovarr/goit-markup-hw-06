@@ -211,7 +211,7 @@ a {
 
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
     .hero {
-        background-image: url(../images/mobile-dark@2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/mobile-dark@2x.jpg);
     }
 }
 
@@ -270,7 +270,7 @@ a {
 }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .hero {
-        background-image: url(../images/tablet-dark@2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet-dark@2x.jpg);
     }
 }
 @media screen and (min-width: 1158px) {
@@ -286,7 +286,7 @@ a {
 }
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
     .hero {
-        background-image: url(../images/desktop-dark@2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/desktop-dark@2x.jpg);
     }
 }
 /* ===benefits=== */
